@@ -1,0 +1,96 @@
+@media (max-width: 768px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+body {
+    background-color: #f0f0f0; 
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    margin: 0;  
+}
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+header ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 10px;
+}
+
+main section {
+    padding: 10px;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+
+
+main section h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+footer {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer a:hover {
+    color: #ccc;
+}
+
+main section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+main section p {
+    margin-bottom: 10px;
+}
+
+main section button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    
+}
+
+main section button:hover {
+    background-color: #555;
+}
